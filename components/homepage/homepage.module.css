@@ -1,0 +1,33 @@
+.container {
+    width: 1500px;
+    height: 1100px;
+    background-color:#A3C4F3;
+    border-radius: 2%;
+    position: relative;
+}
+
+.border {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 94%;
+    height: 91%;
+    background-color:white;
+    border-radius: 2%;
+}
+
+.home {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 98%;
+    height: 85%;
+    background-color:white;
+    border-radius: 2%;
+    border: 3px solid #FFCFD2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
