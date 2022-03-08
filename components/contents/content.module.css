@@ -4,5 +4,36 @@
     margin-left: 15px;
     background-color:white;
     border-radius: 2%;
-    border: 2px solid #FFCFD2;
+    border: 1px solid #fde4cf;
+}
+
+.tabs {
+    /* height: 100%; */
+    height: 82%;
+    display: flex;
+}
+
+.tabList {
+    width: 8rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+.tabMenu {
+    height: 3.6rem;
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  height: 3.3em;
+  /* padding: 1rem 2rem; */
+  background: #cfbaf0 ;
+  border-radius: 6%;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fbf8cc;
 }
