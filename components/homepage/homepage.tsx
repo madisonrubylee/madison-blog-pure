@@ -1,5 +1,5 @@
 import React from 'react';
-import Content from '../contents/content';
+import Contents from '../contents/contents';
 import Profile from '../profile/profile';
 import styles from './homepage.module.css'
 
@@ -10,7 +10,7 @@ const Homepage = () => {
                 <div className={styles.border}>
                     <div className={styles.home}>
                         <Profile />
-                        <Content />
+                        <Contents />
                     </div>
                 </div>
             </div>
