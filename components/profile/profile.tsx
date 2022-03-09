@@ -2,7 +2,7 @@ import React , {useState} from 'react';
 import styles from './profile.module.css'
 
 const url = '/madison.jpeg'
-const desc = '2년차 프론트엔드 개발자 이현주 입니다. '
+const desc = 'telepopmujik@gmail.com '
 
 const onChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const value = e.target.value
@@ -32,7 +32,7 @@ const Profile = () => {
             <div className={styles.container}>
                 <img className={styles.avatar} src={url}  alt= "profile"/>
                 <div className={styles.border}>
-                    <p className={styles.profieDesc}>{desc}</p>
+                    <p className={styles.profieDesc}> {desc}</p>
                 </div>
                 <p className={styles.desc}>이현주</p>
                 <select className={styles.select} id="link" name="link" onChange={onChange}>
