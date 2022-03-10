@@ -63,8 +63,8 @@
 
 .cloud {
     bottom: 100px;
-    -webkit-animation: cloud 50s infinite linear;
-            animation: cloud 50s infinite linear;
+    -webkit-animation: cloud 40s infinite linear;
+            animation: cloud 40s infinite linear;
 }
 
 @-webkit-keyframes cloud {
@@ -83,6 +83,77 @@
 }
 
 .cloud:after {
+    content: '';
+    left: 25px;
+    top: -10px;
+}
+
+.secondCloud, .secondCloud:before, .secondCloud:after{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background: #fff;
+    border-radius: 100px / 50px;
+}
+
+.secondCloud {
+    bottom: 160px;
+    -webkit-animation: secondCloud 50s infinite linear;
+            animation: secondCloud 50s infinite linear;
+}
+
+@-webkit-keyframes secondCloud {
+    0% { left: -100px; }
+    100% { left: 1000px; }
+}
+
+@keyframes secondCloud {
+    0% { left: -100px; }
+    100% { left: 1000px; }
+}
+
+.secondCloud:before {
+    content: '';
+    left: 50px;
+}
+
+.secondCloud:after {
+    content: '';
+    left: 25px;
+    top: -10px;
+}
+
+
+.thirdCloud, .thirdCloud:before, .thirdCloud:after{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background: #fff;
+    border-radius: 100px / 50px;
+}
+
+.thirdCloud {
+    bottom: 210px;
+    -webkit-animation: thirdCloud 100s infinite linear;
+            animation: thirdCloud 100s infinite linear;
+}
+
+@-webkit-keyframes thirdCloud {
+    0% { left: -100px; }
+    100% { left: 1000px; }
+}
+
+@keyframes thirdCloud {
+    0% { left: -100px; }
+    100% { left: 1000px; }
+}
+
+.thirdCloud:before {
+    content: '';
+    left: 50px;
+}
+
+.thirdCloud:after {
     content: '';
     left: 25px;
     top: -10px;

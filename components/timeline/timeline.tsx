@@ -26,6 +26,8 @@ const Timeline = () =>{
                 </div>
             </div>
         <div className={styles.cloud}></div>
+        <div className={styles.secondCloud}></div>
+        <div className={styles.thirdCloud}></div>
         </div>
     )
 }
