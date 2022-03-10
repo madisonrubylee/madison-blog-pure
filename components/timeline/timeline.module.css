@@ -68,12 +68,12 @@
 }
 
 @-webkit-keyframes cloud {
-    0% { left: -100px; }
+    0% { left: 0px; }
     100% { left: 1000px; }
 }
 
 @keyframes cloud {
-    0% { left: -100px; }
+    0% { left: 0px; }
     100% { left: 1000px; }
 }
 
@@ -97,18 +97,18 @@
 }
 
 .secondCloud {
-    bottom: 160px;
+    bottom: 140px;
     -webkit-animation: secondCloud 50s infinite linear;
             animation: secondCloud 50s infinite linear;
 }
 
 @-webkit-keyframes secondCloud {
-    0% { left: -100px; }
+    0% { left: -20px; }
     100% { left: 1000px; }
 }
 
 @keyframes secondCloud {
-    0% { left: -100px; }
+    0% { left: -20px; }
     100% { left: 1000px; }
 }
 
@@ -134,17 +134,17 @@
 
 .thirdCloud {
     bottom: 210px;
-    -webkit-animation: thirdCloud 100s infinite linear;
-            animation: thirdCloud 100s infinite linear;
+    -webkit-animation: thirdCloud 120s infinite linear;
+            animation: thirdCloud 120s infinite linear;
 }
 
 @-webkit-keyframes thirdCloud {
-    0% { left: -100px; }
+    0% { left: -10px; }
     100% { left: 1000px; }
 }
 
 @keyframes thirdCloud {
-    0% { left: -100px; }
+    0% { left: -10px; }
     100% { left: 1000px; }
 }
 
