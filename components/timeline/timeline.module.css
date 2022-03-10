@@ -9,13 +9,27 @@
     width: 100%; 
 } */
 
-.mountain {
+.mountain, .secondMountain, .thirdMountain {
     position: absolute;
     bottom: 0;
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
     border-bottom: 130px solid #ffcfd2;
     z-index: 1;
+}
+
+.secondMountain {
+    left: 70px;
+    bottom: 0px;
+    opacity: .3;
+    z-index: 0;
+}
+
+.thirdMountain {
+    left: -2px;
+    bottom: 0px;
+    opacity: .5;
+    z-index: 0;
 }
 
 .top {
@@ -38,3 +52,38 @@
 .one { left: -50px;}
 .two { left: -20px; }
 .three { left: 4px;}
+
+.cloud, .cloud:before, .cloud:after{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background: #fff;
+    border-radius: 100px / 50px;
+}
+
+.cloud {
+    bottom: 100px;
+    -webkit-animation: cloud 50s infinite linear;
+            animation: cloud 50s infinite linear;
+}
+
+@-webkit-keyframes cloud {
+    0% { left: -100px; }
+    100% { left: 1000px; }
+}
+
+@keyframes cloud {
+    0% { left: -100px; }
+    100% { left: 1000px; }
+}
+
+.cloud:before {
+    content: '';
+    left: 50px;
+}
+
+.cloud:after {
+    content: '';
+    left: 25px;
+    top: -10px;
+}
