@@ -1,0 +1,40 @@
+/* .background {
+     overflow: hidden; 
+     background:#90dbf4; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+} */
+
+.mountain {
+    position: absolute;
+    bottom: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 130px solid #ffcfd2;
+    z-index: 1;
+}
+
+.top {
+    position: absolute;
+    right: -48px;
+    border-left:47px solid transparent;
+    border-right:48px solid transparent;
+    border-bottom: 60px solid #fde4cf;
+    z-index: 2;
+}
+
+.one, .two, .three {
+    position: absolute;
+    top: 60px;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-top: 12px solid #fde4cf;
+}
+
+.one { left: -50px;}
+.two { left: -20px; }
+.three { left: 4px;}

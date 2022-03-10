@@ -1,7 +1,7 @@
 .container {
-    width: 1500px;
+    width: 1700px;
     height: 1100px;
-    background-color:#cfbaf0;
+    background-color:#a3c4f3;
     border-radius: 2%;
     position: relative;
 }
@@ -11,8 +11,8 @@
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    width: 94%;
-    height: 91%;
+    width: 91%;
+    height: 86%;
     background-color:white;
     border-radius: 2%;
 }

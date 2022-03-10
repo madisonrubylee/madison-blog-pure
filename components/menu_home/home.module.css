@@ -2,3 +2,20 @@
     width: 40%;
     margin: 0 0 0 3px;
 }
+
+.container {
+    width: 67%;
+    height: 550px;
+    border-radius: 0.75rem;
+    border: 0.0625rem solid #fbf8cc;
+    padding: 1.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    /* overflow: hidden; */
+    background:#fbf8cc;
+    position: absolute;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+}

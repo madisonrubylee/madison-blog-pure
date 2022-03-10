@@ -3,6 +3,7 @@ import styles from './profile.module.css'
 
 const url = '/madison.jpeg'
 const desc = 'telepopmujik@gmail.com '
+// const desc =<p>요구사항을 분석해서 화면을 구상하고 클라이언트의 입장에서 한번 더 생각하면서 개발을 합니다. </p>
 
 const onChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const value = e.target.value
