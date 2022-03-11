@@ -1,0 +1,19 @@
+.type {
+    margin-top: 32px;
+    width: 15%;
+    height: 5%;
+    border-radius: 0.75rem;
+    /* border: 0.0625rem solid #cacaca; */
+    border: 0rem solid;
+    /* padding: 0.2rem; */
+    margin-bottom: 2rem;
+    background-color: #f1c0e8;
+    /* display: flex; */
+}
+
+.typefont {
+    text-align: center;
+    padding: 0.1rem;
+    font-size: 16px;
+    color: #f1faee;
+}

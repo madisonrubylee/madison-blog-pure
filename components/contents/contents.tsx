@@ -1,6 +1,7 @@
 import React, {useState}  from 'react';
 import Content from '../content/content';
 import Home from '../menu_home/home';
+import Skills from '../skills/skills';
 import styles from './content.module.css'
 
 const Contents = (props :any) => {
@@ -16,7 +17,7 @@ const Contents = (props :any) => {
                 <Home />
             }
             {activeTab === 1 &&
-                1
+                <Skills />
             }
             {activeTab === 2 &&
                 2
@@ -25,7 +26,7 @@ const Contents = (props :any) => {
                 <Content  
                     index={idx} 
                     activeTab={activeTab}
-                />
+                />        
             ))} */}
             </div>
             <div className={styles.tabs}>
