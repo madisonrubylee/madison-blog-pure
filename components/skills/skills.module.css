@@ -21,7 +21,7 @@
 .wrapper {
     padding: 20px;
     text-align: center;
-    width: 500px;
+    width: 600px;
     margin: 100px 100px;
 }
 .line {
@@ -46,17 +46,17 @@
 }
 
 .dot:first-child {
-    margin-left: -70px;
+    margin-left: -85px;
 }
 
 .dot:last-child {
-    margin-right: -70px;
+    margin-right: -85px;
 }
 
 .dot::after {
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 11px;
+    height: 11px;
     background: #ffc8dd;
     position: absolute;
     border-radius: 10px;
@@ -68,6 +68,39 @@
 
 .active::after,
 .dot:hover::after {
-    background: #ffafcc;
+    background: #fbf8cc;
 }
+
+.skill {
+    display: none;
+    margin: 50px;
+    padding: 10px;
+    width:210px; 
+    height:50px;
+    background:pink; 
+    border-radius: 10px;
+    text-align: center;
+}
+
+.skill:after { 
+    border-top:0px solid transparent; 
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-bottom: 10px solid pink; 
+    content:""; 
+    position: absolute;
+    top: 350px;
+    left: 529px;
+}
+
+
+/* .first:not(:hover) + .skill {
+    display: none;
+} */
+
+
+.line .first:hover > .skill {
+    display: block;
+}
+
 
