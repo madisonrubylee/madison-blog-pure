@@ -80,6 +80,7 @@
     background:pink; 
     border-radius: 10px;
     text-align: center;
+    color: #fbf8cc;
 }
 
 .skill:after { 
@@ -99,7 +100,7 @@
 } */
 
 
-.line .first:hover > .skill {
+.first:hover .skill {
     display: block;
 }
 
