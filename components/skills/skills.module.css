@@ -21,7 +21,7 @@
 .wrapper {
     padding: 20px;
     text-align: center;
-    width: 600px;
+    width: 670px;
     margin: 100px 100px;
 }
 .line {
@@ -46,11 +46,11 @@
 }
 
 .dot:first-child {
-    margin-left: -85px;
+    margin-left: -110px;
 }
 
 .dot:last-child {
-    margin-right: -85px;
+    margin-right: -100px;
 }
 
 .dot::after {
@@ -73,9 +73,9 @@
 
 .skill {
     display: none;
-    margin: 50px;
+    margin: 5px;
     padding: 10px;
-    width:210px; 
+    width:200px; 
     height:50px;
     background:pink; 
     border-radius: 10px;
@@ -90,8 +90,8 @@
     border-bottom: 10px solid pink; 
     content:""; 
     position: absolute;
-    top: 350px;
-    left: 529px;
+    top: 20px;
+    left: 100px;
 }
 
 
