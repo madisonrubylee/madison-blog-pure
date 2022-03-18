@@ -1,7 +1,7 @@
 .type {
     margin-top: 32px;
     width: 15%;
-    height: 5%;
+    height: 6%;
     border-radius: 0.75rem;
     /* border: 0.0625rem solid #cacaca; */
     border: 0rem solid;
@@ -13,7 +13,7 @@
 
 .typefont {
     text-align: center;
-    padding: 0.1rem;
+    padding: 0.2rem;
     font-size: 16px;
     color: #f1faee;
 }
@@ -126,7 +126,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #f1c0e8;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 34px; 
@@ -139,7 +139,7 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: #f1faee;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
@@ -158,4 +158,8 @@ box-shadow: 0 0 1px #2196F3;
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
+  }
+
+  .skillwrapper {
+      display: flex;
   }

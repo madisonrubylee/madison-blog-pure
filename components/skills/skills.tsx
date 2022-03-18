@@ -2,7 +2,7 @@ import React, {useState}from 'react';
 import styles from './skills.module.css'
 
 const Skills = () => {
-    const [isChecked, setIsChecked] = useState(false) 
+    const [isChecked, setIsChecked] = useState(true) 
 
     const handleToggle = (e: React.ChangeEvent<HTMLInputElement>) => {
         if(isChecked) {
@@ -16,10 +16,10 @@ const Skills = () => {
         <>
             <div className={styles.type}>
                 <p className={styles.typefont}>Front-end</p>
-                <label className={styles.switch}>
-                    <input type={styles.checkbox} checked={isChecked} onChange={(e) => handleToggle(e)}/>
-                    <span className={styles.slider}></span>
-                </label>
+                    <label className={styles.switch}>
+                        <input type='checkbox' defaultChecked={isChecked || true} onClick={(e) => handleToggle(e)}/>
+                        <span className={styles.slider}></span>
+                    </label>
                 <div className={styles.wrapper}> 
                     <ul className={styles.line}>
                         <li className={`${styles.dot} ${styles.first}`}>2019
