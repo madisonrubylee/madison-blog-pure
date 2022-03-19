@@ -18,14 +18,16 @@ const Skills = () => {
     const skillDesc = skill === 'FE' ? 'Front-end' : 'Back-end'
     return (
         <>
-            <div className={`${styles.type} ${skill === 'BE' && styles.be} `}>
-                <div className={styles.skillToggle} > 
-                    <p className={styles.typefont}>{skillDesc}</p>
-                    <label className={styles.switch}>
-                        <input type='checkbox' defaultChecked={isChecked || true} onClick={(e) => handleToggle(e)}/>
-                        <span className={styles.slider}></span>
-                    </label>
+            <div className={styles.typeWrapper}>
+                <div className={`${styles.type} ${skill === 'BE' && styles.be} `}>
+                    <div className={styles.skillToggle} > 
+                        <p className={styles.typefont}>{skillDesc}</p>
+                    </div>
                 </div>
+                <label className={styles.switch}>
+                            <input type='checkbox' defaultChecked={isChecked || true} onClick={(e) => handleToggle(e)}/>
+                            <span className={styles.slider}></span>
+                </label>
             </div>
             <div className={styles.wrapper}> 
                     <ul className={styles.line}>

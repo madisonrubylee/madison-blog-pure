@@ -6,7 +6,7 @@
     /* border: 0.0625rem solid #cacaca; */
     border: 0rem solid;
     /* padding: 0.2rem; */
-    margin-bottom: 2rem;
+    margin-bottom: 1.1rem;
     background-color: #f1c0e8;
     /* display: flex; */
 }
@@ -20,6 +20,7 @@
     padding: 0.2rem;
     font-size: 16px;
     color: #f1faee;
+    height: 37px;
 }
 
 .wrapper {
@@ -168,6 +169,6 @@ box-shadow: 0 0 1px #bde0fe;
       display: flex;
   }
 
-  .skillToggle {
+  .typeWrapper {
       /* display: inline-block; */
   }
