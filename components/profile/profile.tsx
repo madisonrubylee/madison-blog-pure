@@ -33,7 +33,7 @@ const Profile = () => {
             <div className={styles.container}>
                 <img className={styles.avatar} src={url}  alt= "profile"/>
                 <div className={styles.border}>
-                <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=telepopmujik@gmail.com" target="_blank">
+                <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=telepopmujik@gmail.com" target="_blank" rel="noopener noreferrer">
                 <p className={styles.profieDesc}> {desc}</p>
                 </a>
                 </div>
