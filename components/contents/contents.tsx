@@ -1,5 +1,6 @@
 import React, {useState}  from 'react';
 import Content from '../content/content';
+import Experience from '../menu_experience/experience';
 import Home from '../menu_home/home';
 import Skills from '../skills/skills';
 import styles from './content.module.css'
@@ -20,7 +21,7 @@ const Contents = (props :any) => {
                 <Skills />
             }
             {activeTab === 2 &&
-                2
+                <Experience />
             }
             {/* {props.data.map((content :any, idx: number) => (
                 <Content  

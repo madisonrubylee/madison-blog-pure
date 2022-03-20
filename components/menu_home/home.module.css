@@ -7,12 +7,12 @@
     width: 67%;
     height: 550px;
     border-radius: 0.75rem;
-    border: 0.0625rem solid #bde0fe;
+    border: 0.0625rem solid #f1faee;
     padding: 1.5rem;
     margin-bottom: 2.5rem;
     display: flex;
     /* overflow: hidden; */
-    background:#bde0fe;
+    background:#ffc8dd;
     position: absolute;
     /* top: 0;
     left: 0;
