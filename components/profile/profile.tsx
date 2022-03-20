@@ -33,7 +33,9 @@ const Profile = () => {
             <div className={styles.container}>
                 <img className={styles.avatar} src={url}  alt= "profile"/>
                 <div className={styles.border}>
-                    <p className={styles.profieDesc}> {desc}</p>
+                <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=telepopmujik@gmail.com" target="_blank">
+                <p className={styles.profieDesc}> {desc}</p>
+                </a>
                 </div>
                 <p className={styles.desc}>이현주</p>
                 <select className={styles.select} id="link" name="link" onChange={onChange}>

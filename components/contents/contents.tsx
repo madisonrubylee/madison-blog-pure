@@ -18,10 +18,10 @@ const Contents = (props :any) => {
                 <Home />
             }
             {activeTab === 1 &&
-                <Skills />
+                <Experience />
             }
             {activeTab === 2 &&
-                <Experience />
+                <Skills />
             }
             {/* {props.data.map((content :any, idx: number) => (
                 <Content  
@@ -36,10 +36,10 @@ const Contents = (props :any) => {
                         <button className={styles.btn} onClick={() => clickTab(0)}>home</button>
                     </li>
                     <li className={styles.tabMenu} key={1}>
-                        <button className={styles.btn} onClick={() => clickTab(1)} >skills</button>
+                        <button className={styles.btn} onClick={() => clickTab(1)} >experience</button>
                     </li>
                     <li className={styles.tabMenu} key={2}>
-                        <button className={styles.btn} onClick={() => clickTab(2)} >experience</button>
+                        <button className={styles.btn} onClick={() => clickTab(2)} >skills</button>
                     </li>
                 </ul>
             </div>

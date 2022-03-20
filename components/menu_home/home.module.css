@@ -9,10 +9,11 @@
     border-radius: 0.75rem;
     border: 0.0625rem solid #f1faee;
     padding: 1.5rem;
+    margin-top: 3rem;
     margin-bottom: 2.5rem;
     display: flex;
     /* overflow: hidden; */
-    background:#ffc8dd;
+    background:#caf0f8;
     position: absolute;
     /* top: 0;
     left: 0;
