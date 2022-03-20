@@ -1,7 +1,7 @@
 .container {
     width: 1700px;
     height: 1100px;
-    background-color:#fde4cf;
+    background-color:#a2d2ff;
     border-radius: 2%;
     position: relative;
 }
@@ -26,7 +26,7 @@
     height: 85%;
     background-color:white;
     border-radius: 2%;
-    border: 2px solid #fde4cf;
+    border: 2px solid #bde0fe;
     display: flex;
     justify-content: center;
     align-items: center;

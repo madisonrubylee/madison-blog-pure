@@ -26,9 +26,18 @@
 .wrapper {
     padding: 20px;
     text-align: center;
-    width: 835px;
+    width: 740px;
     margin: 100px 100px;
 }
+
+.backend {
+    padding: 20px;
+    text-align: center;
+    width: 305px;
+    margin: 100px 100px;
+}
+
+
 .line {
     border-top: 2px solid #cdb4db;
     display: flex;
@@ -38,6 +47,18 @@
     align-items: stretch;
     align-content: stretch;
 }
+
+
+.backend .line {
+    border-top: 2px solid #bde0fe;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
 
 .dot {
     position: relative;
@@ -51,10 +72,18 @@
 }
 
 .dot:first-child {
-    margin-left: -140px;
+    margin-left: -120px;
 }
 
 .dot:last-child {
+    margin-right: -120px;
+}
+
+.backend .dot:first-child {
+    margin-left: -140px;
+}
+
+.backend .dot:last-child {
     margin-right: -140px;
 }
 
@@ -71,6 +100,31 @@
     border: 2px solid #ffc8dd;
 }
 
+.backend .dot {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #bde0fe;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.backend .dot::after {
+    content: "";
+    width: 11px;
+    height: 11px;
+    background: #bde0fe;
+    position: absolute;
+    border-radius: 10px;
+    top: -18px;
+    left: 50%;
+    transform: translatex(-50%);
+    border: 2px solid #bde0fe;
+}
+
+
 .active::after,
 .dot:hover::after {
     background: #fbf8cc;
@@ -80,8 +134,8 @@
     display: none;
     /* margin: 0px; */
     margin-top: 20px;
-    padding: 8px;
-    width:270px; 
+    padding: 7px;
+    width:230px; 
     height:40px;
     background:pink; 
     border-radius: 10px;
@@ -97,6 +151,30 @@
     content:""; 
     position: absolute;
     top: 35px;
+    left: 100px;
+}
+
+.backend .skill {
+    display: none;
+    /* margin: 0px; */
+    margin-top: 20px;
+    padding: 8px;
+    width:300px; 
+    height:40px;
+    background:#bde0fe; 
+    border-radius: 10px;
+    text-align: center;
+    color: #fbf8cc;
+}
+
+.backend .skill:after { 
+    border-top:0px solid transparent; 
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-bottom: 10px solid #bde0fe; 
+    content:""; 
+    position: absolute;
+    top: 35px;
     left: 130px;
 }
 
@@ -106,11 +184,15 @@
 } */
 
 
-.first:hover .skill {
+.first:hover .skill,
+.second:hover .skill,
+.third:hover .skill
+ {
     display: block;
 }
 
-.switch {
+
+ .switch {
     position: relative;
     display: inline-block;
     width: 60px;

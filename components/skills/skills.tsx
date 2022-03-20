@@ -29,16 +29,31 @@ const Skills = () => {
                             <span className={styles.slider}></span>
                 </label>
             </div>
-            <div className={styles.wrapper}> 
+           { skill === 'FE' && <div className={styles.wrapper}> 
                     <ul className={styles.line}>
                         <li className={`${styles.dot} ${styles.first}`}>2019
-                            <div className={styles.skill}>JavaScript, jQuery, HTML, CSS</div>
+                            <div className={styles.skill}>JavaScript, jQuery, JSP</div>
                         </li>
-                        <li className={styles.dot}>2020</li>
-                        <li className={styles.dot}>2021</li>
+                        <li className={`${styles.dot} ${styles.second}`}>2020
+                            <div className={styles.skill}>Vue.js</div>
+                        </li>
+                        <li className={`${styles.dot} ${styles.third}`}>2021
+                            <div className={styles.skill}>TypeScript, React.js</div>
+                        </li>
                         <li className={`${styles.dot} ${styles.active}`}>2022</li>
                     </ul>
-                </div>
+            </div>}
+            { skill === 'BE' && <div className={`${styles.wrapper} ${styles.backend}`}> 
+                    <ul className={styles.line}>
+                        <li className={`${styles.dot} ${styles.first}`}>2019
+                            <div className={styles.skill}>Java, Mybatis, Oracle</div>
+                        </li>
+                        <li className={`${styles.dot} ${styles.second}`}>2020
+                            <div className={styles.skill}>rxJava, Spring Boot, JPA, MySql </div>
+                        </li>
+                    </ul>
+            </div>}
+
         </>
     )
 }

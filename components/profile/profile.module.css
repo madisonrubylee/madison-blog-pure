@@ -3,7 +3,7 @@
     height: 80%;
     background-color:white;
     border-radius: 2%;
-    border: 1px solid #fde4cf;
+    border: 1px solid #bde0fe;
 }
 
 .avatar {
@@ -12,14 +12,14 @@
     border-radius: 50%;
     line-height: 1;
     margin-top: 2em;
-    border:1px solid #FDE4CF;
+    border:1px solid #bde0fe;
 }
 
 .border {
     margin-top: 25px;
     height: 17em;
-    border-top: 1px solid #FDE4CF;
-    border-bottom: 1px solid #FDE4CF;
+    border-top: 1px solid #bde0fe;
+    border-bottom: 1px solid #bde0fe;
 }
 
 .profieDesc {
