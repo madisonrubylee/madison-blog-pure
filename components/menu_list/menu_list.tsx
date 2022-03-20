@@ -16,9 +16,9 @@ const MenuList = ({menuList} : Props) => {
     return (
         <>
             <ul className={styles.menus}>
-                {menuList.map((menu) => (
+                {menuList.map((menu, idx) => (
                     
-                    <li onClick={() => onClickMenu(menu.id)}>
+                    <li key={idx} onClick={() => onClickMenu(menu.id)}>
                         {menu.title}
                     </li>
                 ))}
